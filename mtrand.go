@@ -18,7 +18,7 @@
 // * 32-bit Mersenne-Twister MT19937
 // * Not safe for calling from multiple goroutines
 // * Ref: https://en.wikipedia.org/wiki/Mersenne_Twister
-package mtrand // github.com/opencoff/go-lib/mtrand
+package mtrand // github.com/opencoff/go-mtrand
 
 import (
 	"time"

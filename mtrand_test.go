@@ -1,16 +1,14 @@
 // mtrand_test.go
 
-package mtrand_test
+package mtrand
 
 import (
 	"testing"
-
-	"mtrand"
 )
 
 func Test0(t *testing.T) {
 
-	m := mtrand.New(1)
+	m := New(1)
 
 	for i := 0; i < 1000; i++ {
 		z := m.Next()
